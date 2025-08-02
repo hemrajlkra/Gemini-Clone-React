@@ -1,5 +1,5 @@
 
-const apiKey = 'AIzaSyC7CZNZphq2Radr7mxscbUgBG27C1EjfZY';
+const apiKey = '<Gemini-Api-Key>';
 const model = 'gemini-2.5-pro';
 const api = 'streamGenerateContent';
 const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:${api}?key=${apiKey}`;
